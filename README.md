@@ -1,11 +1,10 @@
 X-Trove
-개요
+[개요]
 XRPL 테스트넷 기반 GUI 애플리케이션으로, Tkinter 또는 웹을 활용해 NFT 발행·전송, 에스크로 거래를 테스트합니다.
 
 Standby와 Operational 계정 간 XRP·NFT 관리, QR 코드 생성 기능을 제공합니다.
 
-주요 기능
-
+[주요 기능]
 계정 관리: Standby/Operational 계정 생성 및 조회
 
 XRP 전송: 계정 간 XRP 이동
@@ -16,8 +15,7 @@ NFT 관리: 발행, 조회, 전송, QR 코드 생성
 
 거래 내역: JSON 파일 저장 및 조회
 
-요구 사항
-
+[요구 사항]
 Python 3.8+
 
 
@@ -53,7 +51,7 @@ Escrow
 
 텍스트 박스에 JSON 출력, 오류 시 "Error: ..." 표시
 
-작성자
+[작성자]
 
 김현우
 
