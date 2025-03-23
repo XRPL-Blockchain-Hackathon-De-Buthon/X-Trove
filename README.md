@@ -29,6 +29,26 @@ X-Trove
 Accounts & NFTs 탭
 
   계정 생성: "Get Standby/Operational Account" 버튼 클릭 정보 조회: "Get Standby/Op Account Info"로 잔액 및 상세 정보 확인 XRP 전송: "Send XRP >" 또는 "< Send XRP"로 계정 간 이동 NFT 발행: URI, Flags 등 입력 후 "Mint NFT" 클릭 NFT 조회: "Get NFTs"로 보유 NFT 목록 확인 NFT 전송: NFT ID 입력 후 "Transfer NFT >" 실행 QR 코드 생성: "Generate QR Code"로 NFT 정보 표시 거래 내역: "View History"로 기록 조회 Escrow 탭
+
+  시작
+  ↓
+1. 프로그램 실행 (Tkinter GUI 초기화)
+  ↓
+2. 사용자 입력 대기
+  ↓         Yes
+3. 기능 선택? --------> 3.1 계정 생성
+  No ↓                  ↓
+  3.2 XRP 전송         3.3 NFT 관리
+     ↓                    ↓
+     송금 실행         3.3.1 발행(Mint)
+     ↓                 ↓
+     3.4 에스크로      3.3.2 전송(Transfer)
+       ↓               ↓
+       생성/완료/취소   3.3.3 QR 코드 생성
+       ↓               ↓
+4. 결과 출력 (JSON/Error)
+  ↓
+종료
   
   생성: Seed, Amount, Destination 등 입력 후 "Create Escrow" 완료: Seed, Owner, Offer Sequence 입력 후 "Finish Escrow" 취소: Seed, Owner, Offer Sequence 입력 후 "Cancel Escrow" 결과 확인
   
